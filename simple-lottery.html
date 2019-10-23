@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<meta name="description" content="Lottery">
+		<title>Lottery</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="simple-lottery.js"></script>
+		<link rel="stylesheet" type="text/css" href="simple-lottery.css">
+	</head>
+	<body>
+		<div id="step1">
+			<p class="step1_error"></p>
+			<label id="pool_number_label">Choose the amount of available numbers:<input type="number" id="pool_number" name="pool_number" min="1" step="1"></label><br>
+			<label id="drawn_number_label">Choose the amount of drawn numbers:<input type="number" id="drawn_number" name="drawn_number" min="1" step="1"></label><br>
+			 <button type="button" id="table_generator">Generate table</button>
+			 <br>
+		</div>
+		<div id="step2">
+		</div>
+	</body>
+</html>

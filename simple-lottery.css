@@ -1,0 +1,42 @@
+.lottery_number{
+	display:block;
+}
+.lottery_label{
+	display: inline-block;
+	border: 5px
+	padding: 5px;
+	margin: 5px;
+	text-align:center;
+}
+.lottery_table{
+	display: inline-block;
+	border: 5px
+	padding: 5px;
+	margin: 5px;
+	text-align:center;
+	border-style: solid;
+	}
+.chosen numbers{
+	display: inline-block;
+}
+.step1_error{
+	color:red;
+}
+.step2_error{
+	color:red;
+}
+#chosen_numbers_list{
+	display:none
+}
+	.random_number{
+	display:none
+	border: 5px
+	padding: 5px;
+	margin: 5px;
+}
+#message{
+	display:none
+}
+#try_again{
+	display:none
+}
